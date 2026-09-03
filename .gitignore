@@ -1,0 +1,24 @@
+# Java
+*.class
+
+# IntelliJ
+.idea/
+*.iml
+
+# Maven
+target/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated datasets
+data/raw/*.csv
+data/processed/*
+data/invalid/*
+
+# ML generated files
+ml/models/*
