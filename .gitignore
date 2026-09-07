@@ -1,24 +1,44 @@
-# Java
-*.class
-
 # IntelliJ
 .idea/
 *.iml
 
-# Maven
+# Java / Maven
+*.class
 target/
-
-# Logs
 *.log
+
+# Node / React
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Generated data
+data/raw/*
+data/processed/*
+data/invalid/*
+
+# ML generated data
+ml/data/*.csv
+ml/data/visualizations/
+ml/models/
+
+# Generated reports / charts
+*.png
+*.jpg
+*.jpeg
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Generated datasets
-data/raw/*.csv
-data/processed/*
-data/invalid/*
-
-# ML generated files
-ml/models/*
+# Secrets
+application-local.properties
+application-*.local.properties
+*.secret
+secrets/
